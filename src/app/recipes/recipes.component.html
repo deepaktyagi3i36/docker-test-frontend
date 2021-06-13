@@ -1,0 +1,8 @@
+<div class="title"> List of recipes </div>
+
+<ul class="recipe-container">
+  <li class="recipe-list" *ngFor="let recipe of recipes">
+    <div> Name: {{ recipe.name }}</div>
+    <div> Description: {{ recipe.description }} </div>
+  </li>
+</ul>
